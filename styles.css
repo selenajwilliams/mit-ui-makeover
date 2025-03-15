@@ -1,0 +1,31 @@
+a {
+    color: #A31F34;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover {
+    color: #FF1423
+}
+
+h5{
+    font-weight: bold;
+}
+
+
+/* figma colors: 
+MIT Red
+750014
+
+Logo Red
+#A31F34
+
+Bright Red
+#FF1423
+
+Black
+#000000
+
+Silver Gray
+#8B959E
+
+*/
