@@ -1,3 +1,4 @@
+
 a {
     color: #A31F34;
     font-weight: bold;
@@ -9,6 +10,40 @@ a:hover {
 
 h5{
     font-weight: bold;
+}
+
+.log-in-panel {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #A31F34;
+}
+
+.button-panel {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: ; */
+    /* padding: 0% 10% 0%; */
+}
+
+.lip {
+    margin: 0.5em 2em 0.5em;
+}
+
+.button {
+    
+    background-color: #A31F34;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-lip { /* lip = log in panel */
+    margin: 0 5px 0; /* adds proper spacing to buttons*/
+}
+
+.button:hover {
+    background-color: #FF1423;
+    color: white;
 }
 
 
