@@ -8,8 +8,17 @@
 } */
 
 .website-header {
-    background-color: #A31F34;
+    background-color: #750014;
     min-height: 3%;
+}
+
+.mit-logo {
+    display: block;
+    padding-top: 10px;
+    /* width: 10%; */
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
@@ -147,6 +156,10 @@ h5{
     /* body {
         background-color: darkolivegreen;
     } */
+    .mit-logo {
+        width: 100px;
+    }
+
     .log-in-panel {
         min-width: unset;
         max-height: unset; 
