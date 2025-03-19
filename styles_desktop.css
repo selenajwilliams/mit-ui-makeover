@@ -1,0 +1,107 @@
+/**
+ * Has the CSS for the desktop layout -- 
+*/
+.body {
+    background-color: darkgray;
+}
+
+.website-header {
+    background-color: #A31F34;
+    min-height: 3%;
+    /* max-height: 3%; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 8fr 1fr; 
+    /* margin: 1% 1% 1%; */
+    /* width: 100vw; */
+    /* background-color: bisque; */
+}
+
+.info-wrapper {
+    /* background-color:burlywood; */
+    grid-column: 1/9;
+}
+
+.log-in-wrapper {
+    /* background-color: bisque; */
+    min-width: 300px;
+    grid-column: 9;
+}
+
+/* log in panel & components css */
+
+.log-in-panel {
+
+    min-width: max-content;
+    max-height: max-content; /* keeps border from running to bottom of page*/
+    border-radius: 10px;
+    border: 2px solid #A31F34;
+
+    position: fixed;
+    top: 35%; 
+    transform: translate(-50%, ); /* Offset by half its width/height */
+}
+
+.button-panel {
+    display: flex;
+    flex-direction: row;
+}
+
+.lip {
+    margin: 0.5em 1.5em 0.5em;
+}
+
+
+.btn-lip { /* lip = log in panel */
+    margin: 0 5px 0; /* adds proper spacing to buttons*/
+}
+
+
+/* general css (links, headings, buttons) */
+
+a {
+    color: #A31F34;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover {
+    color: #FF1423
+}
+
+h5{
+    font-weight: bold;
+}
+
+.button {
+    
+    background-color: #A31F34;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #FF1423;
+    color: white;
+}
+
+
+
+/* figma colors: 
+MIT Red
+750014
+
+Logo Red
+#A31F34
+
+Bright Red
+#FF1423
+
+Black
+#000000
+
+Silver Gray
+#8B959E
+
+*/
